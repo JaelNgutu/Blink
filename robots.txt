@@ -1,0 +1,13 @@
+﻿User-agent: *
+Disallow:/Admin/
+Disallow:/App_Code/
+Disallow:/Bin/
+Disallow:/App_Data/
+
+
+
+
+
+
+
+

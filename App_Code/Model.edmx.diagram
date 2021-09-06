@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5971359ed477488181197ec347c0c055" Name="Diagram1">
+        <EntityTypeShape EntityType="DatabaseModel.Category" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Comment" Width="1.5" PointX="7.5" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Country" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Product" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Userdata" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="DatabaseModel.FK__Products__Catego__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Comments__Produc__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Comments__UserID__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Products__Countr__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Userdata__Countr__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Products__UserID__619B8048" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DatabaseModel.Report" Width="1.5" PointX="7.5" PointY="3.125" />
+        <AssociationConnector Association="DatabaseModel.FK__Reports__Product__00750D23" />
+        <EntityTypeShape EntityType="DatabaseModel.Like" Width="1.5" PointX="7.5" PointY="9.5" />
+        <AssociationConnector Association="DatabaseModel.FK__Likes__ProductID__7EE1CA6C" />
+        <AssociationConnector Association="DatabaseModel.FK__Likes__UserID__7DEDA633" />
+        <EntityTypeShape EntityType="DatabaseModel.Find" Width="1.5" PointX="10.5" PointY="4.875" />
+        <AssociationConnector Association="DatabaseModel.FK__Finds__CategoryI__5F3414E9" />
+        <AssociationConnector Association="DatabaseModel.FK__Finds__ProductID__5E3FF0B0" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

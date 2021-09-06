@@ -1,0 +1,40 @@
+﻿.center { 
+    text-align:center;
+}
+
+
+
+.center-page
+{
+    width:300px;
+    height:300px;
+    position:relative;
+    top:-40px;
+    bottom:0px;
+    left:0;
+    right:0;
+
+    margin:auto;
+
+}
+
+.space-vert
+{
+    margin-top:20px;
+}
+
+.thumbnail{
+
+    border:hidden;
+}
+
+.h-divider{
+ margin-top:5px;
+ margin-bottom:5px;
+ height:1px;
+ width:100%;
+ border-top:1px solid gray;
+}
+
+
+
